@@ -74,7 +74,7 @@ const Login = () => {
                   </div>
 
                   <div>
-                    <Link to={'/student/dashboad'}>
+                    <Link to={'/student/dashboard'}>
                       <input type="submit" value="Log In" className={`${Style.login_btn} w-full h-[54px] text-center cursor-pointer`} />
                     </Link>
                   </div>
