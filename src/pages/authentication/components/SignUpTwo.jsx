@@ -24,9 +24,13 @@ const SignUpTwo = ({formData,handleInput}) => {
           <select className='signup__form-input select
           w-[500px] h-[50px] rounded-lg p-2 border border-gray-300 bg-white opacity-60' name="track" id="track-select">
               <option value="">Select track</option>
-              <option value="frontend">Frontend</option>
-              <option value="backend">Backend</option>
-              <option value="mobile">Mobile Development</option>
+              <option value="frontend">Frontend Development</option>
+              <option value="backend">Backend Development</option>
+              <option value="mobile">Andriod Development</option>
+              <option value="mobile">Digital Marketing</option>
+              <option value="mobile">Product Management</option>
+              <option value="mobile">UI/UX Design</option>
+              <option value="mobile">Computer Aided Design</option>
           </select>
         </div>
 
