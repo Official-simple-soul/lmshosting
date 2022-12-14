@@ -74,7 +74,9 @@ const Login = () => {
                   </div>
 
                   <div>
-                    <input type="submit" value="Log In" className={`${Style.login_btn} w-full h-[54px] text-center cursor-pointer`} />
+                    <Link to={'/student/dashboad'}>
+                      <input type="submit" value="Log In" className={`${Style.login_btn} w-full h-[54px] text-center cursor-pointer`} />
+                    </Link>
                   </div>
 
                   <div className='pt-5 pb-12'>
